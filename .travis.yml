@@ -1,4 +1,5 @@
 language: node_js
+dist: xenial
 node_js:
   - "node"
   - "10"
@@ -10,4 +11,4 @@ env:
  - JS: "src/utils/package-reader.js"
  - JS: "src/utils/stats.js"
 
-script: NODE_DEBUG=cluster,net,http,fs,tls,module,timers node $JS
+script: NODE_DEBUG=cluster,net,http,fs,tls,timers node $JS
