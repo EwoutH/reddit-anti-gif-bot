@@ -4,4 +4,5 @@ node_js:
   - "iojs"
   - "10"
 
-script: npm src/index.js
+script:
+ - cmd src/index.js
