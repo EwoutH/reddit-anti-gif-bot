@@ -11,4 +11,4 @@ env:
  - JS: "src/utils/package-reader.js"
  - JS: "src/utils/stats.js"
 
-script: NODE_DEBUG=cluster,net,http,fs,tls,timers node $JS
+script: node --inspect $JS
