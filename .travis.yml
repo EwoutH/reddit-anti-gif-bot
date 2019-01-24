@@ -3,3 +3,5 @@ node_js:
   - "node"
   - "iojs"
   - "10"
+
+script: npm src/index.js
