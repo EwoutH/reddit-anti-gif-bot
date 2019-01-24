@@ -4,4 +4,4 @@ node_js:
   - "iojs"
   - "10"
 
-script: npm run src/index.js
+script: npm run-script src/index.js
