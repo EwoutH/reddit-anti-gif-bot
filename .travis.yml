@@ -4,10 +4,10 @@ node_js:
   - "10"
 
 env:
- - node: "src/index.js"
- - node: "src/utils/config.js"
- - node: "src/utils/link-cache.js"
- - node: "src/utils/package-reader.js"
- - node: "src/utils/stats.js"
+ - JS: "src/index.js"
+ - JS: "src/utils/config.js"
+ - JS: "src/utils/link-cache.js"
+ - JS: "src/utils/package-reader.js"
+ - JS: "src/utils/stats.js"
 
-script: node $node
+script: node $JS
